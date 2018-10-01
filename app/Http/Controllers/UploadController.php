@@ -40,5 +40,13 @@ class UploadController extends Controller
             $value->move(public_path('images'), $imageName);
         }
         return response()->json(['success'=>'Images Uploaded Successfully.']);
+
+        // $files = public::allFiles(public_path('images'));
     }
+
+    public function delete()
+     {
+
+         return view('pliki-del');
+     }
 }

@@ -23,3 +23,5 @@ Route::get('/', function () {
 Route::get('images-upload', 'UploadController@imagesUpload');
 
 Route::post('images-upload', 'UploadController@imagesUploadPost')->name('images.upload');
+
+Route::get('pliki-del', 'UploadController@delete');

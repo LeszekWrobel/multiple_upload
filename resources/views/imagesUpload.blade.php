@@ -29,6 +29,39 @@
   </form>
   <br/>
   <div id="image_preview"></div>
+
+<form action="http://127.0.0.1:8000/pliki-del.php" method="GET" enctype="form-data">>
+  <div class="alert alert-danger">
+
+
+  
+
+
+<?php
+  //  $directory="images";
+  // $dir=opendir($directory);
+  //
+  // while($file_name=readdir($dir))
+  //     {
+  //          if(($file_name!=".")&&($file_name!=".."))
+  //         {
+  // 	$img = 'images/'.$file_name;
+  // 	echo '<img src="'.$img.'" alt="obrazek"  style="width:19%; padding:1%"/>';
+  // 	echo ' ';
+  //         }
+  //   echo'     <input type="submit" name="file_name" value='.$file_name.' />';
+  //     }
+  //
+  // closedir($dir);
+    ?>
+
+  </div>
+
+</form>
+
+
+
+
 </div>
 </body>
 <script type="text/javascript">
